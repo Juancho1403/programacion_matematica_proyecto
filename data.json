@@ -1,0 +1,6 @@
+ {
+       "transport": { "cost_matrix": [[5,8],[7,3]], "supply": [2,3], "demand": [3,2] },
+       "servers": [ {"id":0,"cpu":10,"memory":10,"bandwidth":10}, {"id":1,"cpu":12,"memory":8,"bandwidth":12} ],
+       "requests": [ {"id":0,"cpu_req":3,"mem_req":3,"bw_req":3,"priority":2}, {"id":1,"cpu_req":4,"mem_req":2,"bw_req":2,"priority":1} ],
+       "cost_matrix_servers": [[2,5],[6,4]]
+}
